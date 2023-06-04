@@ -1,4 +1,6 @@
 function hello(name="asif"){
     console.log(name)
 }
-hello();
+hello("Asif");
+
+export{}
