@@ -7,5 +7,6 @@ function createDate(day:number, month:number, year:number):Date;
 function createDate(dayOrTimestamp:number, month?:number, year?:number){
     return month === undefined || year === undefined
     ? new Date(dayOrTimestamp)
-    :new Date(year, month, dayOrTimestamp)
+    :console.log(new Date(year, month, dayOrTimestamp))
  }
+ createDate(7, 27, 1987);

@@ -1,3 +1,3 @@
 let imran:(name:string) => string;
 
-imran = (name) =>  `hello ${name.toUpperCase()}`
+imran = (name) =>  `hello ${name.toUpperCase}`
