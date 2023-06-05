@@ -4,3 +4,6 @@ function hello (name = "Alexander"){
      
 }
 hello()
+
+
+export{}
