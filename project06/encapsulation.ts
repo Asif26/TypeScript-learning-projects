@@ -3,16 +3,20 @@ abstract class country{
     public language: string;
     public population: number;
     public populationGrothRate: number;
+    private _statePrivacy : string;
 
 
     constructor(name:string,
         language:string,
         population:number,
-        populationGrothRate:number){
+        populationGrothRate:number
+        ,_statePrivacy){
             this.name = name
             this.language = language
             this.population = population
             this.populationGrothRate = populationGrothRate
+            this._statePrivacy = _statePrivacy
+
 
         }
 
@@ -45,5 +49,4 @@ console.log(Pakistan.populationGroth());
 
 
 
-
-
+export{}

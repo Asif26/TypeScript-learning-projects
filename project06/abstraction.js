@@ -35,4 +35,4 @@ var OICCountry = /** @class */ (function (_super) {
 }(country));
 var Pakistan = new OICCountry("Pakistan", "Sindhi", 210000000, 2.5);
 console.info(Pakistan);
-console.log(Pakistan.populationGroth);
+console.log(Pakistan.populationGroth());
